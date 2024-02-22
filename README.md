@@ -1,0 +1,2 @@
+![](https://github.com/JuanManuelGilQuiroga/identificacionCajas/blob/ejercicio_7/storage/img/ejercicio7_1.png)
+![](https://github.com/JuanManuelGilQuiroga/identificacionCajas/blob/ejercicio_7/storage/img/ejercicio7_2.png)
