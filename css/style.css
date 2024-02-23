@@ -1,0 +1,36 @@
+*{
+}
+.container {
+    display: flex;
+}
+.container ul{
+    width: 400px;
+    font-family: sans-serif;
+}
+.container ul li{
+    display: flex;
+    margin: 5px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background: #c5c6c7;
+}
+.container ul li a {
+    margin: auto 10px auto;
+    text-decoration: none;
+    color: black;
+}
+.container ul li button{
+    margin: auto 10px auto;
+    height: 30px;
+    display: flex;
+    background: #FFF;
+    border: none;
+    align-items: center;
+    justify-content: center;    
+}
+.container ul li button:hover{
+    background: grey;
+    cursor: pointer;
+}
+
