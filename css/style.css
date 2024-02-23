@@ -1,0 +1,30 @@
+* {
+    background: #F3F2F0;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    font-family: sans-serif;
+    margin: auto;
+    background: #EAE6E3;
+    width: 350px;
+    height: 170px;
+}
+.container p {
+    background: #EAE6E3;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #5a5a5a;
+}
+.container p b {
+    background: #EAE6E3;
+    color: #5a5a5a;
+}
+.p2{
+    color: grey;
+    font-weight: lighter;
+}
