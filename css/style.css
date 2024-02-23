@@ -36,6 +36,8 @@
     margin: none;
     align-items: center;
     justify-content: center;
-
-
+}
+.buttons button:hover{
+    background: grey;
+    cursor: pointer;
 }
