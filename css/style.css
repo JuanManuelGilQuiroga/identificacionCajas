@@ -1,5 +1,5 @@
 *{
-    border: 1px solid;
+    font-family: sans-serif;
 }
 body{
     display: flex;
@@ -8,26 +8,43 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    font-weight: 500;
+}
 header{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(203, 203, 203);
 }
 main{
     display: flex;
     justify-content: space-between;
+    flex-grow: 3.2;
 }
 article{
-    width: 25vw;
+    flex-grow: 1;
+    background: rgb(175, 175, 175);
+}
+article > p{
+    margin: 10px;
 }
 nav{
-    width: 50vw;
+    flex-grow: 2;
+    background: grey;
 }
 aside{
-    width: 25vw;
+    flex-grow: 1;
+    background: rgb(175, 175, 175);
+}
+aside > p{
+    margin: 10px;
 }
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(203, 203, 203);
+    align-content: stretch;
+    flex-grow: 0.3;
 }
