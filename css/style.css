@@ -1,0 +1,10 @@
+*{
+    border: 1px solid;
+}
+body {
+    background: #93d9e9;
+}
+.container{
+    width: 75vw;
+    display: flex;
+}
