@@ -1,0 +1,33 @@
+*{
+    border: 1px solid;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    width: 25vw;
+}
+nav{
+    width: 50vw;
+}
+aside{
+    width: 25vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
