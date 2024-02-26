@@ -4,14 +4,14 @@
 }
 body{
     height: 100vh;
-    max-width: 1000px;
-    width: 100vw;
+    width: 1000px;
     margin: 0px;
     display: flex;
     flex-direction: column;
+    inset: 0;
+    margin: auto;
 }
 header{
-    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -33,7 +33,7 @@ header{
     flex-grow: 1;
 }
 .op div:first-child{
-    width: 700px;
+    width: 500px;
     margin-left: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -49,6 +49,7 @@ header{
 .op > div > a{
     text-decoration: none;
     color: #fff;
+    font-size: small;
 }
 main{
     flex-grow: 5;
