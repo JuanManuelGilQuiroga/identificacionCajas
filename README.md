@@ -1,0 +1,1 @@
+![](https://github.com/JuanManuelGilQuiroga/identificacionCajas/blob/ejercicio_3/storage/img/practicaFlex.jpg)
