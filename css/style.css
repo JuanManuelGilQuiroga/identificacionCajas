@@ -1,0 +1,66 @@
+*{
+    border: 1px solid;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerTitulo{
+    width: 25vw;
+}
+.titulo{
+    display: flex;
+    width: 12vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle{
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+}
+main{
+    display: flex;
+    width: 100;
+}
+.div{
+    background: #fff;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+}
+.ITEMS{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22vw;
+}
+.items{
+    display: flex;
+    height: 10vw;
+    margin: 0;
+}
+.leftAside{
+    width: 8vw;
+}
+.leftAside > div{
+    height: 2vw;
+    display: flex;
+    align-items: center;
+}
+.rightAside{
+    width: 16.5vw;
+}
+.rightAside > div{
+    height: 2vw;
+    display: flex;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
