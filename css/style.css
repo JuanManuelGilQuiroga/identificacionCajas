@@ -1,13 +1,15 @@
 *{
-    border: 1px solid;
+    padding: 0;
 }
 header{
+    outline: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .containerTitulo{
-    width: 25vw;
+    outline: 1px solid black;
+    width: 25.7vw;
 }
 .titulo{
     display: flex;
@@ -16,18 +18,31 @@ header{
     justify-content: space-between;
 }
 .circle{
+    border: 1px solid black;
     border-radius: 50%;
     width: 3vw;
     height: 3vw;
+    margin-left: 5%;
+}
+.circle2{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw; 
 }
 main{
+    outline: 1px solid black;
     display: flex;
     width: 100;
 }
 .div{
+    outline: 1px solid black;
     background: #fff;
+    display: flex;
+    justify-content: center;
 }
 aside{
+    outline: 1px solid black;
     display: flex;
     flex-direction: column;
     width: 28vw;
@@ -36,31 +51,101 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 22vw;
+    height: 80%;
 }
 .items{
     display: flex;
-    height: 10vw;
+    height: 40%;
     margin: 0;
 }
 .leftAside{
-    width: 8vw;
+    outline: 1px solid black;
+    width: 50%;
 }
 .leftAside > div{
     height: 2vw;
     display: flex;
-    align-items: center;
+    align-items: center; 
+}
+.leftAside div:first-child{
+    padding-left: 10px;
 }
 .rightAside{
+    outline: 1px solid black;
     width: 16.5vw;
 }
 .rightAside > div{
+    outline: 1px solid black;
     height: 2vw;
     display: flex;
     align-items: center;
+    padding-left: 10px;
 }
 section{
+    outline: 1px solid black;
     display: flex;
     flex-direction: column;
     width: 80vw;
+}
+.dashboard{
+    outline: 1px solid black;
+    width: 30%;
+}
+.dashboard > h1{
+    margin: 5%;
+}
+.divMayor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divMayor > h2{
+    margin-left: 5%;
+}
+article{
+    outline: 1px solid black;
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.percentages{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.percentages > div{
+    outline: 1px solid black;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+.color{
+    width: 80%;
+}
+.titleYparagraph{
+    outline: 1px solid black;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.titleYparagraph > *{
+    margin: 2%;
+}
+.titleYparagraph > div:empty{
+    outline: 1px solid black;
+    height: 50vh;
+}
+footer{
+    outline: 1px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
